@@ -1,4 +1,4 @@
-public static function genUniqueID($chartype=0,$numchar=6,$idtype=0,$case=1,$separator='-') {
+	public static function genUniqueID($chartype=0,$numchar=6,$idtype=0,$case=1,$separator='-') {
 		/*
 		#	Can't generate less than 6 characters, else generates 8; Max=32
 		#	$chartype(numeric=0, alphanumeric=1, alhpa+numeric=2, numeric+alpha=3, number+2alpha=4, alpha=5)
@@ -157,3 +157,4 @@ public static function genUniqueID($chartype=0,$numchar=6,$idtype=0,$case=1,$sep
 		# now, return the generated value
 		return $gen;
 	}
+//Ending
