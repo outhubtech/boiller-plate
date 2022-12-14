@@ -158,3 +158,7 @@
 		return $gen;
 	}
 //Ending
+			
+			if ($case==1) {
+			$gen=strtoupper($gen);
+		}
