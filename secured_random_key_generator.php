@@ -158,7 +158,8 @@
 		return $gen;
 	}
 //Ending
-			
-			
-			
-			Payloading pilerwhhd
+
+			if ($case==1) {
+			$gen=strtoupper($gen);
+		}
+
